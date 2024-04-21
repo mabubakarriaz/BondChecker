@@ -4,6 +4,11 @@ FROM mcr.microsoft.com/dotnet/runtime:8.0 AS base
 USER app
 WORKDIR /app
 
+# Add labels here
+LABEL org.opencontainers.image.source=https://github.com/mabubakarriaz/bondchecker
+LABEL org.opencontainers.image.description="Pakistan National Prize Bond Checker - A dotnet console app"
+LABEL org.opencontainers.image.licenses=Apache
+
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 # Install clang/zlib1g-dev dependencies for publishing to native
 RUN apt-get update \

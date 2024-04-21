@@ -48,3 +48,9 @@ your list should be in my-list folder.
 and file naming convention should be list-750.txt or list-1500.txt
 
 the govenrment list is in folder draw-list
+link: http://savings.gov.pk/download-draws/
+Link: http://savings.gov.pk/draw-search/
+
+Docker command to build code:
+docker build -t ghcr.io/mabubakarriaz/bondchecker:latest -f Dockerfile .
+

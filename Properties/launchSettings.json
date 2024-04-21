@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BondChecker": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

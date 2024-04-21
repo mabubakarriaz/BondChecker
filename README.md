@@ -36,3 +36,15 @@ To use this application, follow these steps:
 ## Note
 
 Ensure that the paths to your files are correctly set in the application before running it. Modify the paths in the code if necessary to match where your files are stored on your system.
+
+
+
+----------------------------------------
+TODO: Notes need to document
+
+Webiste of statebank: https://www.sbp.org.pk/sbp_bsc/Prizebond.asp
+
+your list should be in my-list folder.
+and file naming convention should be list-750.txt or list-1500.txt
+
+the govenrment list is in folder draw-list
